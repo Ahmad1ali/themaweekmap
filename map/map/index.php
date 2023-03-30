@@ -1,3 +1,21 @@
+<?php
+session_start();
+try {
+    $db = new PDO("mysql:host=localhost;dbname=map","root","");
+    $query = $db->prepare("SELECT * FROM land");
+    $query->execute();
+    $result=$query->fetchAll(PDO::FETCH_ASSOC);
+
+
+}catch (PDOException $e){
+   die("errror !". $e->getMessage());
+}
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +34,8 @@
     </button> -->
     <div class="card mt-4 ms-3" style="width: 18rem;">
         <div class="card-body info">
+
+        <!-- <a href="addinfo.php" class = "btn btn-dark"> add info</a> -->
         </div>
       </div>
     <div class="mapdiv">

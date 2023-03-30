@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../map/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Svg  world map </title>
+    <title>get info about Europ </title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+
+    <!-- <button class ='text-info'>
+    
+    </button> -->
+    <div class="card mt-4 ms-3" style="width: 18rem;">
+        <div class="card-body info">
+        </div>
+      </div>
     <div class="mapdiv">
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1110.000000 1280.000000"
@@ -15,7 +25,8 @@
        <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
        fill="" stroke="">
 
-       <a xlink:title="noorwegen" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=noorwegen" target="_blank" >
+       <!-- <a xlink:title="noorwegen" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=noorwegen" target="_blank" > -->
+       <a class="btn btn-dark Noorwegen" xlink:title="Noorwegen">
        <path d="M7615 12786 l-30 -13 38 -23 c20 -12 37 -27 37 -33 0 -6 -16 -27 -35
        -47 -28 -29 -38 -49 -46 -99 -13 -69 -41 -111 -89 -131 -52 -22 -63 -9 -55 65
        6 55 5 66 -9 71 -20 8 -21 32 0 55 9 10 18 37 21 61 9 67 -12 40 -103 -132
@@ -106,7 +117,7 @@
        <path d="M6880 12602 c0 -10 6 -27 14 -38 14 -18 15 -18 33 -1 17 18 17 19 -6
        38 -29 24 -41 24 -41 1z"/>
        </a> -->
-       <a xlink:title="finland" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=finland" target="_blank" >
+       <a class="btn btn-dark FinLand" xlink:title="FinLand">
        <path d="M7685 12209 c-51 -34 -168 -91 -210 -103 -84 -24 -157 -194 -159
        -371 l-1 -99 -54 -36 c-56 -37 -84 -79 -95 -142 -4 -21 -11 -40 -17 -43 -5 -4
        -54 18 -108 49 -57 32 -111 56 -128 56 -15 0 -46 -12 -67 -26 -119 -81 -212
@@ -150,7 +161,7 @@
        <path d="M5652 11905 c-27 -20 -59 -122 -43 -138 13 -13 61 10 68 33 2 8 12
        30 21 48 11 24 13 38 6 50 -15 23 -26 24 -52 7z"/>
        </a> -->
-       <a xlink:title="zweden" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=zweden" target="_blank" > 
+       <a class="btn btn-dark Zweden" xlink:title="Zweden">
         
        <path d="M6190 11643 c0 -3 7 -30 17 -59 l16 -52 -30 -62 c-25 -53 -29 -67
        -20 -90 9 -24 7 -33 -17 -64 -33 -44 -55 -45 -133 -10 -32 14 -87 32 -123 39
@@ -216,7 +227,7 @@
        <path d="M6627 6940 c-42 -13 -57 -29 -57 -61 0 -23 5 -29 21 -29 35 0 131 59
        127 79 -4 19 -48 24 -91 11z"/>
        </a> -->
-       <a xlink:title="England" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=england" target="_blank" >
+       <a class="btn btn-dark Engeland" xlink:title="ENGELAND">
         
        <path d="M1084 6903 c-9 -20 -24 -70 -35 -111 -10 -42 -20 -76 -22 -77 -1 -2
        -17 -10 -34 -19 -46 -23 -65 -56 -61 -108 3 -38 7 -45 36 -57 37 -17 39 -23
@@ -245,7 +256,7 @@
        -24 -50 60 18 34 32 73 32 87 0 28 28 61 113 133 60 51 72 81 35 91 -13 3 -90
        6 -171 6 l-148 0 -15 -37z"/>
        </a>
-       <a xlink:title="Estonia" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=estonia" target="_blank" >
+       <a class="btn btn-dark Estonia" xlink:title="Estonia">
        <path d="M7145 6731 c-37 -9 -88 -35 -103 -53 -6 -8 -10 -48 -9 -98 2 -76 -1
        -90 -25 -132 -50 -83 -136 -114 -208 -72 -20 12 -43 40 -60 74 -39 76 -100
        140 -133 140 -42 0 -135 -39 -155 -65 -11 -13 -22 -48 -26 -76 -4 -29 -23 -93
@@ -261,7 +272,7 @@
        <path d="M5890 6708 c-41 -28 -96 -107 -110 -158 -13 -50 -3 -100 21 -100 30
        0 60 55 69 128 8 60 12 70 44 95 61 49 40 78 -24 35z"/>
        </a> -->
-       <a xlink:title="Denmark" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=Denmark" target="_blank" >
+       <a class="btn btn-dark Denmark" xlink:title="Denmark">>
        <path d="M4150 6573 c-8 -3 -42 -29 -75 -58 -68 -59 -101 -78 -165 -95 -60
        -16 -116 -53 -137 -92 -16 -29 -18 -60 -18 -235 l0 -202 38 -39 c38 -39 57
        -84 57 -134 0 -39 31 -65 84 -73 57 -9 111 9 100 34 -37 91 -28 242 16 256 11
@@ -269,7 +280,7 @@
        50 24 l22 24 -34 6 c-84 16 -107 105 -67 266 12 50 19 101 16 115 -7 26 -10
        27 -36 18z"/>
        </a>
-       <a xlink:title="Lativia" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=Lativia" target="_blank" >
+       <a class="btn btn-dark Lativia" xlink:title="Lativia">
        <path d="M7062 6118 c-31 -20 -38 -20 -140 -9 -59 6 -179 12 -267 13 -178 1
        -200 -5 -249 -62 -33 -40 -35 -109 -6 -202 28 -93 82 -138 162 -138 57 0 129
        -36 147 -74 11 -24 11 -39 2 -79 -6 -27 -8 -53 -5 -58 3 -6 23 -21 45 -35 22
@@ -280,7 +291,7 @@
        </a>
 
 
-       <a xlink:title="Belar" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=Belar" target="_blank" >
+       <a class="btn btn-dark BELAR" xlink:title="BELAR">
        <path d="M7735 5999 c-56 -57 -89 -73 -142 -65 -39 5 -47 3 -68 -20 -31 -33
        -42 -87 -25 -119 21 -40 5 -72 -50 -100 -56 -28 -104 -87 -120 -145 -5 -20
        -19 -45 -30 -55 -15 -13 -20 -29 -18 -54 3 -34 2 -35 -38 -42 -65 -12 -113
@@ -314,13 +325,13 @@
        <path d="M6307 5702 c-34 -36 -34 -46 0 -37 31 7 43 21 43 48 0 24 -12 21 -43
        -11z"/>
        </a> -->
-       <a xlink:title="NORTHERN IRELAND" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=NORTHERN IRELAND" target="_blank" >
+       <a class="btn btn-dark NORTHERN-IRELAND" xlink:title="NORTHERN-IRELAND">
        <path d="M720 5698 c-46 -23 -220 -184 -220 -204 0 -13 70 -104 80 -104 4 0
        26 23 49 50 23 28 49 50 56 50 8 0 21 -13 29 -29 24 -45 73 -81 111 -81 41 0
        88 43 106 97 11 34 10 38 -14 57 -18 15 -30 38 -38 76 -13 61 -53 110 -91 110
        -13 0 -43 -10 -68 -22z"/>
        </a>
-       <a xlink:title="DUTCHLAND" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=DUTCHLAND" target="_blank" >
+       <a class="btn btn-dark GERMANY" xlink:title="GERMANY">
        <path d="M3860 5605 c0 -3 10 -22 23 -43 38 -60 39 -70 13 -93 l-23 -20 26
        -51 c29 -57 144 -185 185 -207 39 -21 35 -44 -6 -36 -39 9 -104 40 -113 55 -8
        14 -72 45 -109 54 l-29 7 6 -49 c5 -41 2 -53 -13 -67 -25 -23 -78 -13 -114 20
@@ -340,7 +351,7 @@
        15 -81 19 -53 3 -86 11 -98 21 -10 9 -25 16 -33 16 -25 0 -48 11 -48 23 0 6 9
        21 21 33 l21 22 -24 16 c-38 25 -198 58 -198 41z"/>
        </a>
-       <a xlink:title="POLAND" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=POLAND" target="_blank" >
+       <a class="btn btn-dark POLAND" xlink:title="POLAND">
        <path d="M5640 5564 c-94 -25 -188 -65 -239 -99 -58 -40 -90 -54 -239 -106
        -63 -22 -125 -47 -139 -56 -27 -18 -27 -7 -7 -146 5 -33 0 -58 -20 -108 -31
        -79 -32 -91 -5 -115 61 -55 122 -248 139 -439 8 -88 11 -102 32 -115 12 -8 39
@@ -357,7 +368,7 @@
        <path d="M4760 5507 c0 -22 26 -51 38 -43 18 11 14 34 -7 46 -26 13 -31 13
        -31 -3z"/>
        </a> -->
-       <a xlink:title="IRELAND" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=IRELAND" target="_blank" >
+       <a class="btn btn-dark IRELAND" xlink:title="IRELAND">
        <path d="M382 5448 l3 -43 -64 0 c-42 0 -66 -4 -68 -12 -7 -19 -27 -16 -48 7
        -27 30 -62 25 -101 -14 -19 -19 -34 -38 -34 -43 0 -5 19 -13 43 -19 63 -14 63
        -45 -2 -117 -28 -30 -51 -57 -51 -61 0 -14 47 -28 127 -37 129 -14 143 -35 63
@@ -369,7 +380,7 @@
        9 156 -27 298 -97 379 -21 24 -40 50 -43 57 -4 8 -23 -6 -56 -42 l-51 -55 -61
        68 c-94 104 -143 123 -137 55z"/>
        </a>
-       <a xlink:title="NETHERLANDS" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=NETHERLANDS" target="_blank" >
+       <a class="btn btn-dark NETHERLANDS" xlink:title="NETHERLANDS">
        <path d="M3264 5101 c-45 -11 -52 -18 -64 -61 -11 -40 -1 -80 20 -80 12 0 57
        -77 65 -113 6 -23 1 -33 -33 -67 -30 -30 -48 -40 -71 -40 -69 0 -101 44 -101
        140 0 33 -4 60 -9 60 -4 0 -19 -28 -31 -62 -12 -35 -43 -103 -67 -152 -24 -49
@@ -379,7 +390,7 @@
        40 -16 15 -30 34 -30 42 0 8 22 40 50 70 55 61 68 94 51 131 -23 52 -146 79
        -247 55z"/>
        </a>
-       <a xlink:title="OEKRAÏNE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=OEKRAÏNE" target="_blank" >
+       <a class="btn btn-dark OEKRAÏNE" xlink:title="OEKRAÏNE">
        <path d="M8782 4748 c-22 -13 -43 -19 -64 -16 -21 4 -47 -3 -77 -18 -32 -17
        -77 -26 -149 -34 -156 -15 -187 -39 -198 -151 -10 -102 -45 -138 -81 -81 -25
        39 -34 43 -77 38 -25 -3 -64 3 -103 16 -61 20 -64 20 -96 3 -28 -15 -39 -16
@@ -407,7 +418,7 @@
        -58 20 -37 -8 -99 20 -110 49 -13 34 -15 76 -7 124 10 57 -19 114 -76 146 -63
        36 -88 39 -126 15z"/>
        </a>
-       <a xlink:title="BELGIË" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=BELGIË" target="_blank" >
+       <a class="btn btn-dark BELGIË" xlink:title="BELGIË">
        <path d="M2945 4444 c-75 -30 -96 -35 -130 -29 -22 5 -60 8 -84 9 -37 0 -48
        -4 -72 -32 -16 -18 -29 -44 -29 -59 0 -25 2 -26 45 -20 50 7 65 -2 97 -61 11
        -20 37 -41 75 -60 70 -36 94 -61 98 -102 1 -17 4 -32 6 -35 5 -4 27 9 82 48
@@ -415,7 +426,7 @@
        119 36 0 37 63 2 103 -9 10 -31 25 -49 32 -22 9 -34 23 -39 42 -3 15 -9 42
        -13 58 -4 18 -20 38 -39 50 -79 50 -120 75 -123 75 -2 -1 -44 -17 -94 -36z"/>
        </a>
-       <a xlink:title="FRANKRIJK" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=FRANKRIJK" target="_blank" >
+       <a class="btn btn-dark FRANCE" xlink:title="FRANCE">
        <path d="M2500 4329 c-43 -17 -70 -50 -70 -84 0 -105 -72 -208 -186 -265 -93
        -48 -114 -66 -114 -100 0 -44 -31 -60 -115 -60 -94 0 -175 22 -198 55 -19 25
        -75 61 -83 52 -2 -2 3 -23 11 -47 19 -53 55 -247 47 -255 -3 -3 -29 -5 -57 -5
@@ -437,7 +448,7 @@
        -75 71 -5 36 -9 42 -30 42 -56 0 -129 58 -148 118 -6 21 -11 23 -45 17 -48 -8
        -75 6 -88 45 -9 24 -17 30 -39 29 -15 0 -39 -5 -53 -10z"/>
        </a>
-       <a xlink:title="TSJECHIE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=TSJECHIE" target="_blank" >
+       <a class="btn btn-dark TSJECHIE" xlink:title="TSJECHIE">
        <path d="M5000 4291 c-158 -44 -362 -145 -396 -196 -13 -20 -14 -31 -5 -56 15
        -43 93 -138 203 -246 100 -98 159 -143 189 -143 11 0 46 25 79 55 33 30 64 55
        68 55 5 0 46 -12 93 -26 110 -33 271 -45 297 -21 12 11 29 15 52 11 50 -8 119
@@ -445,12 +456,12 @@
        -161 80 -179 67 -69 -51 -63 -50 -104 -21 -42 28 -75 69 -86 103 -8 24 -66 51
        -131 60 -32 4 -46 11 -54 29 -9 20 -18 24 -53 23 -24 0 -72 -8 -108 -18z"/>
        </a>
-       <a xlink:title="luxemburg" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=luxemburg" target="_blank" >
+       <a class="btn btn-dark LUXEMBURG" xlink:title="LUXEMBURG">
        <path d="M3290 4006 c0 -82 34 -125 60 -77 16 31 12 66 -11 95 -32 40 -49 34
        -49 -18z"/>
        </a>
        
-       <a xlink:title="SLOWAKIJE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=SLOWAKIJE" target="_blank" >
+       <a class="btn btn-dark SLOWAKIJE" xlink:title="SLOWAKIJE">
        <path d="M5965 3875 c-32 -26 -65 -33 -65 -14 0 15 -52 5 -86 -17 -14 -10 -36
        -39 -50 -65 -27 -54 -80 -91 -165 -116 -31 -9 -56 -24 -66 -39 -34 -52 11
        -148 96 -205 43 -28 50 -30 108 -24 91 9 117 19 130 46 17 33 42 49 77 49 17
@@ -459,7 +470,7 @@
        65 -246 68 -358 8 -93 -49 -114 -47 -130 16 -8 30 -40 68 -58 68 -7 0 -25 -11
        -42 -25z"/>
        </a>
-       <a xlink:title="OOSTENRIJK" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=OOSTENRIJK" target="_blank" >
+       <a class="btn btn-dark OOSTENRIJK" xlink:title="OOSTENRIJK">
        <path d="M5068 3653 c-60 -48 -76 -52 -153 -38 -38 7 -45 4 -123 -54 -91 -67
        -92 -71 -66 -156 10 -31 14 -63 10 -80 -6 -25 -10 -27 -44 -20 -96 17 -149 16
        -227 -4 -44 -11 -111 -25 -150 -31 -38 -6 -91 -16 -117 -22 -41 -10 -53 -9
@@ -469,7 +480,7 @@
        120 35 16 36 18 35 71 0 63 -27 162 -50 184 -8 9 -30 16 -49 16 -18 0 -72 11
        -119 25 -121 35 -140 33 -208 -22z"/>
        </a>
-       <a xlink:title="HONGARIJE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=HONGARIJE" target="_blank" >
+       <a class="btn btn-dark HONGARIJE" xlink:title="HONGARIJE">
        <path d="M6272 3571 c-17 -5 -52 -27 -77 -50 -37 -34 -51 -41 -87 -41 -24 0
        -52 -7 -62 -15 -11 -8 -41 -18 -68 -21 -40 -5 -52 -12 -63 -34 -21 -40 -67
        -55 -170 -55 -76 0 -96 4 -126 23 -46 28 -53 28 -69 -2 -7 -14 -26 -30 -41
@@ -478,14 +489,14 @@
        37 192 45 14 9 27 29 31 44 12 56 37 109 91 191 76 117 131 179 178 203 l39
        21 -39 33 c-41 35 -111 64 -152 64 -13 0 -36 9 -52 21 -31 23 -117 33 -169 20z"/>
        </a>
-       <a xlink:title="MOLDAVIE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=MOLDAVIE" target="_blank" >
+       <a class="btn btn-dark MOLDAVIE" xlink:title="MOLDAVIE">
        <path d="M7572 3539 c-18 -5 -31 -13 -29 -17 30 -57 177 -296 198 -323 43 -55
        49 -80 60 -253 5 -88 11 -162 14 -164 12 -12 48 38 94 128 28 53 58 103 67
        111 10 8 40 14 72 14 42 0 57 4 66 18 9 14 7 21 -10 35 -12 9 -33 40 -47 67
        -14 28 -43 73 -66 100 -46 56 -49 72 -21 108 28 35 25 46 -11 54 -17 3 -36 14
        -42 24 -8 13 -24 19 -49 19 -26 0 -40 6 -47 19 -24 43 -179 81 -249 60z"/>
        </a>
-       <a xlink:title="ROEMENIE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=ROEMENIE" target="_blank" >
+       <a class="btn btn-dark ROEMENIE" xlink:title="ROEMENIE">
        <path d="M7425 3474 c-60 -47 -239 -114 -303 -114 -23 0 -44 8 -59 22 -20 19
        -37 23 -96 24 -40 1 -105 7 -145 14 l-72 13 -43 -32 c-23 -17 -57 -39 -75 -47
        -40 -18 -113 -125 -182 -269 -54 -111 -80 -140 -157 -179 -29 -15 -53 -30 -53
@@ -498,7 +509,7 @@
        -17 -174 43 -6 18 -18 102 -26 185 -8 84 -20 172 -26 195 -21 79 -154 317
        -213 380 -28 30 -61 34 -91 11z"/>
        </a>
-       <a xlink:title="ZWITSERLAND" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=ZWITSERLAND" target="_blank" >
+       <a class="btn btn-dark ZWITSERLAND" xlink:title="ZWITSERLAND">
        <path d="M3830 3313 c-109 -12 -217 -36 -258 -57 -58 -29 -127 -102 -151 -159
        -10 -24 -31 -51 -46 -61 -34 -23 -19 -36 34 -29 42 6 60 -10 101 -85 l26 -47
        57 1 c61 1 80 11 100 52 14 31 74 74 96 70 9 -2 24 -18 33 -37 33 -66 59 -60
@@ -506,7 +517,7 @@
        76 69 0 3 -18 9 -39 13 -55 8 -96 58 -111 133 -6 32 -15 65 -19 73 -8 15 -78
        22 -151 13z"/>
        </a>
-       <a xlink:title="Italië" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=Italië" target="_blank" >
+       <a class="btn btn-dark ITALY" xlink:title="ITALY">
        <path d="M4388 3121 c-15 -5 -40 -18 -57 -30 -18 -13 -44 -21 -69 -21 -35 0
        -41 -3 -50 -29 -6 -16 -19 -34 -30 -40 -11 -6 -23 -22 -26 -36 -12 -49 -88
        -54 -137 -9 -10 9 -25 14 -33 11 -20 -8 -46 -60 -54 -110 -11 -63 -32 -59
@@ -527,13 +538,13 @@
        96 44 102 52 8 9 11 37 8 78 -4 74 -22 101 -71 110 -39 8 -123 48 -158 76 -28
        24 -117 35 -161 21z"/>
        </a>
-       <a xlink:title="SLOVENIE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=SLOVENIE" target="_blank" >
+       <a class="btn btn-dark SLOVENIE" xlink:title="SLOVENIE">
        <path d="M5235 3043 c-44 -13 -141 -33 -215 -44 -144 -22 -170 -34 -170 -78 0
        -35 43 -125 74 -156 31 -31 48 -31 86 -3 29 21 29 21 77 2 26 -10 51 -20 55
        -22 4 -2 8 12 10 30 2 26 10 37 40 53 35 18 38 24 38 62 0 37 5 46 46 80 134
        110 125 127 -41 76z"/>
        </a>
-       <a xlink:title="KROATIE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=KROATIE" target="_blank" >
+       <a class="btn btn-dark KROATIE" xlink:title="KROATIE">
        <path d="M5335 2951 c-40 -17 -58 -48 -51 -85 6 -30 3 -39 -20 -58 -14 -13
        -37 -39 -49 -59 -13 -20 -38 -42 -56 -49 -29 -12 -36 -12 -72 8 -69 38 -78 2
        -18 -71 22 -26 43 -62 46 -80 10 -44 30 -80 66 -122 26 -29 30 -41 25 -66 -12
@@ -552,7 +563,7 @@
        -76 18 -71 14 -89 -19 -89 -29 0 -44 31 -44 89 0 49 -16 65 -41 40 -10 -10
        -30 -19 -43 -19 -49 0 -150 40 -266 105 -120 67 -168 82 -205 66z"/>
        </a>
-       <a xlink:title="BOSNIE " xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=BOSNIE" target="_blank" >
+       <a class="btn btn-dark BOSNIE" xlink:title="BOSNIE">
        <path d="M5297 2623 c-14 -13 -7 -45 22 -101 51 -101 150 -243 217 -310 35
        -35 64 -71 64 -80 0 -32 45 -84 118 -138 l77 -56 6 51 c8 63 49 129 90 143 24
        8 28 14 23 33 -6 26 18 45 55 45 25 0 25 2 5 41 -8 17 -14 46 -13 64 2 20 -3
@@ -560,7 +571,7 @@
        -108 37 -287 57 -147 16 -155 16 -165 0 -32 -53 -34 -54 -67 -13 -31 37 -40
        43 -52 30z"/>
        </a>
-       <a xlink:title="BULGARIJE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=BULGARIJE" target="_blank" >
+       <a class="btn btn-dark BULGARIJE" xlink:title="BULGARIJE">
        <path d="M6662 2317 c-12 -13 -22 -33 -22 -46 0 -42 45 -111 104 -159 35 -28
        4 -92 -46 -92 -19 0 -24 -13 -32 -90 -8 -71 4 -112 49 -161 29 -32 35 -47 35
        -84 0 -39 3 -45 24 -51 14 -3 62 4 107 15 107 27 137 26 222 -4 49 -18 92 -26
@@ -570,7 +581,7 @@
        -71 0 -79 -2 -165 -50 l-90 -50 -170 1 c-277 1 -395 29 -395 94 0 36 -9 38
        -38 7z"/>
        </a>
-       <a xlink:title="SPANJE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=SPANJE" target="_blank" >
+       <a class="btn btn-dark SPAIN" xlink:title="SPAIN">
        <path d="M460 2197 c-14 -7 -31 -25 -38 -39 -20 -43 -60 -68 -106 -68 -46 0
        -58 -6 -74 -36 -9 -17 -5 -33 23 -87 18 -37 36 -90 40 -118 l7 -51 56 6 c51 6
        58 4 83 -20 35 -34 94 -42 139 -19 42 21 140 31 167 17 12 -7 25 -29 32 -56 6
@@ -586,11 +597,11 @@
        -66 44 -30 11 -179 24 -480 40 -131 6 -213 16 -265 29 -57 16 -108 21 -210 21
        -112 1 -142 4 -175 20 -46 22 -99 25 -135 7z"/>
        </a>
-       <a xlink:title="CORSE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=CORSE" target="_blank" >
+       <a class="btn btn-dark CORSE" xlink:title="CORSE">
        <path d="M3883 1903 c-18 -12 -23 -25 -23 -62 1 -51 23 -177 33 -188 12 -12
        55 38 78 90 25 59 30 136 10 160 -17 21 -69 21 -98 0z"/>
        </a>
-       <a xlink:title="ALBANIE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=ALBANIE" target="_blank" >
+       <a class="btn btn-dark ALBANIE" xlink:title="ALBANIE">
        <path d="M6024 1866 c-14 -23 -14 -31 1 -95 14 -55 16 -93 11 -183 -15 -241
        -11 -264 50 -306 24 -18 46 -42 50 -57 3 -14 10 -25 14 -25 11 0 72 85 95 130
        9 19 27 45 38 58 l21 23 -44 85 c-43 84 -44 88 -45 182 0 79 -4 103 -21 132
@@ -607,7 +618,7 @@
        -110 74 -140 117 -32 44 -40 49 -73 49 -21 0 -47 7 -57 15 -24 19 -71 19 -113
        0z"/>
        </a> -->
-       <a xlink:title="TURKIJE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=TURKIJE" target="_blank" >
+       <a class="btn btn-dark TURKIJE" xlink:title="TURKIJE">>
        <path d="M9098 1754 c-3 -3 -68 -9 -145 -14 -112 -7 -155 -14 -229 -38 -134
        -45 -246 -104 -298 -158 l-44 -47 -54 7 c-156 21 -199 25 -265 26 -40 0 -73
        -4 -73 -8 0 -16 38 -44 77 -57 60 -21 54 -40 -20 -64 -44 -15 -67 -28 -70 -41
@@ -629,7 +640,7 @@
        -41 15 -101 33 -132 39 -50 11 -63 19 -102 63 -39 44 -47 50 -61 38 -36 -30
        -118 9 -151 73 -13 25 -50 37 -66 21z"/>
        </a>
-       <a xlink:title="PORTOGAL" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=PORTOGAL" target="_blank" >
+       <a class="btn btn-dark PORTOGAL" xlink:title="PORTOGAL">
        <path d="M321 1741 c-13 -8 -13 -19 2 -83 21 -89 21 -155 2 -273 -21 -126 -50
        -225 -90 -305 -20 -39 -35 -85 -35 -104 0 -31 3 -34 44 -45 50 -12 110 -71
        102 -99 -7 -22 -26 -188 -26 -228 0 -47 20 -65 90 -80 54 -11 67 -11 91 2 34
@@ -639,7 +650,7 @@
        107 -11 132 -30 24 -85 23 -119 -3 -41 -30 -158 -25 -194 9 -24 23 -71 29 -96
        13z"/>
        </a>
-       <a xlink:title="GRIEKENLAND" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=GRIEKENLAND" target="_blank" >
+       <a class="btn btn-dark GRIEKENLAND" xlink:title="GRIEKENLAND">
        <path d="M6906 1604 c-21 -7 -72 -18 -113 -23 -46 -6 -79 -15 -86 -25 -16 -20
        -60 -36 -100 -36 -32 0 -70 -17 -123 -55 -15 -11 -50 -22 -78 -25 -45 -4 -50
        -8 -57 -34 -5 -16 -19 -41 -32 -55 -14 -14 -30 -42 -36 -62 -7 -22 -21 -41
@@ -652,25 +663,25 @@
        281 11 79 -22 120 -19 124 10 5 36 -27 51 -138 63 -58 6 -134 20 -168 31 -74
        23 -121 24 -176 4z"/>
        </a>
-       <a xlink:title="SARDINIE" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=SARDINIE" target="_blank" >
+       <a class="btn btn-dark SARDINIE" xlink:title="SARDINIE">
        <path d="M3850 1472 c-65 -32 -71 -52 -46 -150 20 -77 20 -128 -1 -204 l-17
        -61 34 -28 c42 -35 50 -36 79 -5 13 13 33 27 46 30 29 7 49 57 65 159 13 87 7
        140 -21 207 -24 53 -46 80 -68 80 -9 0 -41 -13 -71 -28z"/>
        </a>
-       <a xlink:title="KRETA" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=KRETA" target="_blank" >
+       <a class="btn btn-dark KRETA" xlink:title="KRETA">
        <path d="M6460 772 c-25 -16 -54 -39 -64 -50 -19 -22 -19 -22 31 -70 56 -54
        69 -81 54 -111 -26 -47 -6 -77 36 -58 28 12 47 -2 74 -55 23 -45 32 -47 47
        -13 13 28 34 32 52 10 38 -46 41 29 4 119 -15 35 -24 71 -21 80 6 14 12 14 57
        -4 55 -22 100 -26 100 -10 0 6 -11 10 -25 10 -15 0 -34 11 -48 26 -37 44 -171
        129 -232 148 -14 4 -36 -4 -65 -22z"/>
        </a>
-       <a xlink:title="MALTA" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=MALTA" target="_blank" >
+       <a class="btn btn-dark MALTA" xlink:title="MALTA">
        <path d="M4725 734 c-12 -9 -31 -13 -48 -10 -47 9 -47 -21 -1 -61 49 -42 208
        -123 241 -123 33 0 60 -15 115 -66 53 -49 69 -53 98 -24 23 23 25 46 9 87 -17
        45 -13 87 17 147 15 31 25 59 21 62 -3 3 -67 -1 -142 -9 -118 -13 -146 -13
        -203 -1 -82 17 -82 17 -107 -2z"/>
        </a>
-       <a xlink:title="CYPRUS" xlink:href="https://www.google.lk/search?source=hp&ei=57w4WvPEKIOe0gTO47CADA&q=Kandy" target="_blank" >
+       <a class="btn btn-dark CYPRUS" xlink:title="CYPRUS">
        <path d="M6930 82 c8 -5 38 -13 65 -17 28 -4 73 -20 101 -36 56 -32 109 -37
        140 -15 29 22 9 33 -86 50 -115 19 -239 29 -220 18z"/>
        </a>
@@ -678,6 +689,6 @@
        </svg>
 
     </div>
-    
+    <script src="js/map.js"></script>
 </body>
 </html>
